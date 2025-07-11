@@ -1,5 +1,4 @@
-# --- STEP 3.4: Write scripts/run_clip_test.py ---
-%%writefile scripts/run_clip_test.py
+
 import os
 import sys
 

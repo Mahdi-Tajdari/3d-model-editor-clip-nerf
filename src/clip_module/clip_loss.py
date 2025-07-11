@@ -1,5 +1,4 @@
-# --- STEP 3.2: Write src/clip_module/clip_loss.py ---
-%%writefile src/clip_module/clip_loss.py
+
 import torch
 import torch.nn.functional as F
 

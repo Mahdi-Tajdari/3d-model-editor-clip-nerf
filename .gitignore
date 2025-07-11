@@ -1,0 +1,61 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+.mypy_cache/
+.vscode/
+
+# PyTorch models and datasets
+# CLIP models are typically downloaded to a cache directory by the 'clip' library.
+# The default cache directory is usually ~/.cache/clip or similar.
+# We explicitly ignore common model and dataset directories.
+# If CLIP downloads models to a specific folder within your project, add it here.
+
+# Common locations for downloaded models/checkpoints
+models/
+checkpoints/
+data/
+datasets/
+weights/
+runs/
+
+# Specific CLIP cache directory (if it's inside your project, which is rare but possible)
+# If your CLIP models are downloaded to a specific path within your project, add it here.
+# Example: If you explicitly set a cache_dir for CLIP like:
+# clip.load("ViT-B/32", device="cuda", download_root="./my_clip_cache/")
+# then you would add:
+# my_clip_cache/
+
+# NeRF results and generated content
+results/
+output/
+renders/
+
+# IDE specific files
+.idea/ # For PyCharm users
+*.iml # For IntelliJ/PyCharm modules
+.project
+.settings/
+.DS_Store # macOS specific
+
+# Logs
+*.log
+logs/
+
+# Environment variables
+.env
+.flaskenv
+
+# Jupyter Notebook files
+.ipynb_checkpoints/
+
+# Any other temporary or generated files
+tmp/
+temp/
